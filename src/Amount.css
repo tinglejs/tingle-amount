@@ -1,0 +1,26 @@
+.tAmount {
+  width: 75px;
+  height: 25px;
+}
+.tAmount .tViewBox,
+.tAmount .tController {
+  width: 25px;
+  height: 25px;
+}
+.tAmount .tController {
+  cursor: pointer;
+}
+.tAmount .tP1 {
+  left: 0;
+}
+.tAmount .tP2 {
+  left: 25px;
+}
+.tAmount .tP3 {
+  left: 50px;
+}
+.tAmount .tMakeLikeDisabled {
+  opacity: 0.6;
+}
+
+/*# sourceMappingURL=Amount.css.map */

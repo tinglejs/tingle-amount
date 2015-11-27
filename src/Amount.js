@@ -1,7 +1,7 @@
 const Context = require('tingle-context');
 const classnames = require('classnames');
 
-class Component extends React.Component {
+class Amount extends React.Component {
 
     constructor(props) {
         super(props);
@@ -86,14 +86,14 @@ class Component extends React.Component {
     }
 }
 
-Component.defaultProps = {
+Amount.defaultProps = {
     min: 0,
     max: Infinity,
     value: 0,
     onChange: new Function()
 };
 
-Component.propTypes = {
+Amount.propTypes = {
     min: React.PropTypes.oneOfType([
         React.PropTypes.string,
         React.PropTypes.number
@@ -109,4 +109,4 @@ Component.propTypes = {
     onChange: React.PropTypes.func
 };
 
-module.exports = Component;
+module.exports = Amount;
